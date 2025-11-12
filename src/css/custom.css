@@ -46,3 +46,18 @@
 .navbar__brand:hover  {
   color: #d94d4c;
 }
+
+/* Réduit la largeur de la sidebar */
+.theme-doc-sidebar-container {
+  width: 250px !important; /* valeur par défaut ≈ 300px */
+}
+
+/* Réduit un peu le padding intérieur */
+.theme-doc-sidebar-container .menu__list-item {
+  padding: 4px 0;
+}
+
+/* Ajuste le contenu principal pour correspondre */
+.theme-doc-main {
+  margin-left: 250px !important;
+}
