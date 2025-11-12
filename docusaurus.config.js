@@ -94,7 +94,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Underground 1 (delete this if working)',
+            label: 'Tutorial',
           },
           {to: '/nfsd-recreation/ug2', label: 'Underground 2', position: 'left'},
           {to: '/nfsd-recreation/mw05', label: 'Most Wanted (2005)', position: 'left'},
@@ -142,7 +142,7 @@ const config = {
             items: [
               {
                 label: 'X',
-                to: '/ug1',
+                to: '/blog',
               },
             ],
           },
