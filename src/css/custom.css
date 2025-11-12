@@ -50,8 +50,6 @@
 .theme-doc-sidebar-container {
   flex: 0 0 250px;
   width: 250 !important;
-  min-width: 200px;
-  max-width: 300px;
 }
 
 /* Réduit un peu le padding intérieur */
@@ -71,17 +69,28 @@
 }
 
 .menu__link {
-  line-height: 19px;
+  line-height: 1.25;
   font-weight: 600;
-  white-space: normal;
-  word-break: break-word;
+  white-space: normal !important;
+  word-break: break-word !important;
   display: flex;
   align-items: center;
   overflow-wrap: break-word;
-  padding: 6px 12px;
+  text-overflow: ellipsis;
+  padding: 4px 8px;
 }
 
 .menu__caret {
   opacity: 0.8;
   transform: translateY(1px);
+}
+
+.menu__link--active,
+.menu__link--active:hover {
+  color: #d94d4c !important;
+}
+
+.menu__list-item {
+  margin: 0;
+  padding: 0;
 }
