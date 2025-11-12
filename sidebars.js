@@ -20,13 +20,11 @@ const sidebars = {
 
   // But you can create a sidebar manually
   /*
-  tutorialSidebar: [
-    'intro',
-    'hello',
+  gamesSidebar: [
     {
       type: 'category',
-      label: 'Tutorial',
-      items: ['tutorial-basics/create-a-document'],
+      label: 'Games',
+      items: ['docs/game1', 'docs/game2'],
     },
   ],
    */
