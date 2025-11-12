@@ -96,12 +96,7 @@ const config = {
             position: 'left',
             label: 'Underground 1',
           },
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Underground 2',
-          },
+          {to: '/nfsd-recreation/ug2', label: 'Underground 2', position: 'left'},
           {to: '/nfsd-recreation/mw05', label: 'Most Wanted (2005)', position: 'left'},
           {to: '/nfsd-recreation/c', label: 'Carbon', position: 'left'},
           {to: '/nfsd-recreation/ps', label: 'ProStreet', position: 'left'},
@@ -133,34 +128,26 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Speedrun.com NFS page',
+                href: 'https://www.speedrun.com/series/need_for_speed',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
+                label: 'NFSR Discord',
+                href: 'https://discord.gg/0q21vTfIVQ7xibxy',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Placeholder',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'X',
+                to: '/ug1',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Need for SpeedDocs Reborn by IceCream.`,
       },
       prism: {
         theme: prismThemes.github,
