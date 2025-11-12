@@ -47,7 +47,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: './sidebars.js',
+          sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -60,10 +60,6 @@ const config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -88,8 +84,8 @@ const config = {
         title: 'NFSD',
         logo: {
           alt: 'NFSD logo',
-          src: 'img/nfsd-logo.png',
-        },
+          src: 'img/nfsd-logo.png',},
+          
         items: [
           {to: '/ug1', label: 'Underground 1', position: 'left' },
           {to: '/ug2', label: 'Underground 2', position: 'left'},
