@@ -28,3 +28,13 @@
   --ifm-color-primary-lightest: #d94d4c;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+/* Navbar links : couleur par défaut et au survol */
+.navbar__link {
+  color: white; /* couleur par défaut */
+  transition: color 0.3s; /* transition fluide */
+}
+
+.navbar__link:hover {
+  color: red; /* couleur au survol */
+}
+
