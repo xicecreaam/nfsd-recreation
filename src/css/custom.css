@@ -61,3 +61,8 @@
 .theme-doc-main {
   margin-left: 250px !important;
 }
+
+.menu__link {
+  white-space: normal !important;
+  line-height: 1.2;
+}
