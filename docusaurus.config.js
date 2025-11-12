@@ -93,16 +93,16 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'ug1Sidebar',
             position: 'left',
             label: 'Underground 1',
           },
-          {to: '/nfsd-recreation/ug2', label: 'Underground 2', position: 'left'},
-          {to: '/nfsd-recreation/mw05', label: 'Most Wanted (2005)', position: 'left'},
-          {to: '/nfsd-recreation/c', label: 'Carbon', position: 'left'},
-          {to: '/nfsd-recreation/ps', label: 'ProStreet', position: 'left'},
-          {to: '/nfsd-recreation/uc', label: 'Undercover', position: 'left'},
-          {to: '/nfsd-recreation/tr', label: 'The Run', position: 'left'},
+          {to: '/ug2', label: 'Underground 2', position: 'left'},
+          {to: '/mw05', label: 'Most Wanted (2005)', position: 'left'},
+          {to: '/c', label: 'Carbon', position: 'left'},
+          {to: '/ps', label: 'ProStreet', position: 'left'},
+          {to: '/uc', label: 'Undercover', position: 'left'},
+          {to: '/tr', label: 'The Run', position: 'left'},
           {
             href: 'https://linktr.ee/xicecreaam',
             label: 'Linktree',
