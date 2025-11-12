@@ -28,7 +28,7 @@ rl.question('Message de commit: ', (msg) => {
   // Git add, commit et push
   run('git add .');
   run(`git commit -m "${msg}" || echo "Rien à commit"`);
-  run('git push -u origin gh-pages');
+  run('git push');
 
   // Build et deploy
   run('yarn build');
