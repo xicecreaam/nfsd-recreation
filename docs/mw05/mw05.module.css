@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-content: space-between;
-  row-gap: 1.5rem;
+  gap: 32px 32px;
   margin-top: 2rem;
 }
 
@@ -17,6 +17,7 @@
   padding: 33px;
   text-align: left;
   transition: all 0.2s ease;
+  text-decoration: none;
   box-shadow: var(--ifm-global-shadow-lw);
 }
 

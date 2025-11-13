@@ -19,7 +19,7 @@
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #d94d4c0;
+  --ifm-color-primary: #d94d4c;
   --ifm-color-primary-dark: #d94d4c;
   --ifm-color-primary-darker: #d94d4c;
   --ifm-color-primary-darkest: #d94d4c;
@@ -108,3 +108,27 @@
 :root {
   --content-max-width: 1600px; /* tu peux ajuster ici */
 }
+
+/* Bordure rouge au survol */
+.pagination-nav__link {
+  width: 100%;
+  max-width: 804px;
+  border: 1px solid #2d2f30;
+  border-radius: 12px;
+  transition: border-color 0.2s ease;
+}
+
+.pagination-nav__link:hover {
+  border-color: #d94d4c;
+}
+
+/* Titre rouge au hover */
+.pagination-nav__link:hover .pagination-nav__label {
+  color: #d94d4c !important;
+}
+
+.pagination-nav {
+  display: flex;
+  justify-content: flex-end; /* <<< met la carte Next à droite */
+}
+
