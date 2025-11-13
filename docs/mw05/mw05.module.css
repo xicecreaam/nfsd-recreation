@@ -1,3 +1,12 @@
+.container {
+    margin: 0 auto;
+    max-width: var(--ifm-container-width)
+}
+
+.container--fluid {
+    max-width: inherit
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -81,7 +90,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: var(--ifm-heading-margin-top) 0 var(--ifm-heading-margin-bottom) 0;
 }
 
-.cardDescription_PWke {
+.cardDescription {
     font-size: 0.8rem;
 }
 
