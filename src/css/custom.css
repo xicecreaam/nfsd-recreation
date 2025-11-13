@@ -127,3 +127,11 @@
   justify-content: flex-end !important; /* <<< met la carte Next à droite */
 }
 
+.theme-doc-markdown,
+.theme-doc-content,
+.container {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}

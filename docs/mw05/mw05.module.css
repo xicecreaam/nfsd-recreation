@@ -71,7 +71,6 @@
   margin: 0;
 }
 
-.inner {
-  max-width: var(--content-max-width);
-  margin: 0 auto;
+.cardRowSpacing .col:nth-child(n+4) {
+  margin-top: 32px;
 }
