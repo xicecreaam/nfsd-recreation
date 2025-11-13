@@ -123,9 +123,22 @@
   justify-content: flex-end !important; /* <<< met la carte Next à droite */
 }
 
+.main-wrapper,
+.container,
+.container-fluid,
+.row,
 .theme-doc-markdown,
 .theme-doc-content,
 .container {
   max-width: 100% !important;
   width: 100% !important;
+  margin: 16px !important;
+  padding: 16px !important;
+}
+
+.docMainContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocPage-index-module {
+  max-width: 100% !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
