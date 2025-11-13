@@ -4,6 +4,10 @@
   gap: 32px;
 }
 
+.row > .col {
+  margin-bottom: 32px;
+}
+
 .cardsRow,
 .cardsRow > .col,
 .card {
@@ -19,26 +23,33 @@
 }
 
 .cardContainer {
+  display: block;  
   border: 1px solid #2d2e30;
   border-radius: 12px;
   padding: 32px;               /* marge interne EXACTE */
   background-color: #212122;   /* surface */
   height: 125px;               /* hauteur FIXE */
-  display: flex;
   flex-direction: column;
   justify-content: space-between;
   transition: border 150ms ease, box-shadow 150ms ease;
+  text-decoration: none !important;
+  color: var(--ifm-font-color-base) !important;
+  overflow: hidden;
 }
 
 .cardContainer:hover {
   border-color: #d94c4c;
   box-shadow: 0 1.5px 3px #0004;
+  text-decoration: none !important;
 }
 
 .cardTitle {
   font-size: 1.2rem;
   font-weight: 700;
   color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
   margin-bottom: 24px;  /* écart texte <-> titre */
 }
 
@@ -51,6 +62,8 @@
 .cardDescription {
   color: var(--ifm-color-content);
   font-size: 0.95rem;
-  line-height: 1.4;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
