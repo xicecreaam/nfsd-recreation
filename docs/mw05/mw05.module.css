@@ -35,15 +35,6 @@
   box-shadow: 0 1.5px 3px #0004;
 }
 
-.card {
-  background-color: var(--ifm-card-background-color);
-  border-radius: var(--ifm-card-border-radius);
-  box-shadow: var(--ifm-global-shadow-lw);
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-}
-
 .cardTitle {
   font-size: 1.2rem;
   font-weight: 700;
