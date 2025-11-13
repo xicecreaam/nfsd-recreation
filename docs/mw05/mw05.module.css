@@ -21,7 +21,6 @@
 /* CARTE */
 .card {
   width: 100%; /* pour remplir la colonne */
-  min-width: 520px;
   height: 125px;
   padding: 32px;
   border: 1px solid #2d2e30;
@@ -51,16 +50,6 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-}
-
-/* DESCRIPTION DE LA CARTE */
-.text--truncate {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  margin: 0;
-  color: var(--ifm-color-content-secondary);
-  font-size: 0.9rem;
 }
 
 /* RESPONSIVE : 1 seule colonne sous 996px */
