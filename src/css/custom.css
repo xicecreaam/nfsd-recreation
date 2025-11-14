@@ -118,5 +118,5 @@
 }
 
 main > .container {
-  max-width: initial !important;
+  max-width: 150% !important;
 }
