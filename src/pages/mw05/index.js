@@ -1,5 +1,5 @@
 import React from 'react';
-import NfsdLayout from '../../layout/nfsdLayout';
+import NfsdLayout from '../../layout/Nfsdlayout';
 
 export default function Mw05Index() {
   return (
