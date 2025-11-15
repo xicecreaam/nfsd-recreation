@@ -32,10 +32,25 @@ html {
 
 .theme-doc-toc-desktop {
   width: 250px !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+
+  max-width: 20% !important;    /* largeur maximale */
+  flex-basis: 25% !important;   /* largeur de base */
+  flex-grow: 0 !important;      /* pas d'expansion */
+  flex-shrink: 0 !important;    /* pas de réduction automatique */
+
+  line-height: 24px !important; /* hauteur de ligne */
 }
 
 .theme-doc-main {
   max-width: calc(100% - 250px) !important;
+}
+
+.col[class*="col--"] .theme-doc-toc-desktop {
+  width: 250px !important;
+  flex: 0 0 250px !important;
+  max-width: 250px !important;
 }
 
 .navbar__link {
