@@ -5,31 +5,53 @@ sidebar_position: 1
 hide_table_of_contents: true
 ---
 
+import Link from '@docusaurus/Link';
+import styles from './mw05.module.css';
+
 # Most Wanted (2005)
 
-<div class="mw-grid">
-  <a class="mw-card" href="/mw05/setup">
-      <h3>📄️ Setting up for speedruns</h3>
+<section className={styles.cardGrid}>
+
+  <article className={styles.card}>
+    <Link to="/mw05/setup">
+      <h2>📄️ Setting up for speedruns</h2>
       <p>All the information needed to set up the PC version of Most Wanted for speedruns.</p>
-  </a>
-  <a class="mw-card" href="/mw05/general">
-      <h3>📄️ General Information</h3>
+    </Link>
+  </article>
+
+  <article className={styles.card}>
+    <Link to="/mw05/info">
+      <h2>📄️ General Information</h2>
       <p>Basic information for full game speedruns everyone should know.</p>
-  </a>
-  <a class="mw-card" href="/mw05/simple">
-      <h3>📄️ Simple Career Any% guide</h3>
+    </Link>
+  </article>
+
+  <article className={styles.card}>
+    <Link to="/mw05/simple">
+      <h2>📄️ Simple Career Any% guide</h2>
       <p>The best Any% route for new runners.</p>
-  </a>
-  <a class="mw-card" href="/mw05/intermediate">
-      <h3>📄️ Intermediate Career Any% guide</h3>
+    </Link>
+  </article>
+
+  <article className={styles.card}>
+    <Link to="/mw05/intermediate">
+      <h2>📄️ Intermediate Career Any% guide</h2>
       <p>Getting serious.</p>
-  </a>
-  <a class="mw-card" href="/mw05/advanced">
-      <h3>📄️ Advanced Information</h3>
+    </Link>
+  </article>
+
+  <article className={styles.card}>
+    <Link to="/mw05/advanced">
+      <h2>📄️ Advanced Information</h2>
       <p>Advanced information for those who want to delve deeper.</p>
-  </a>
-  <a class="mw-card" href="/mw05/expert">
-      <h3>📄️ Expert Career Any% route</h3>
+    </Link>
+  </article>
+
+  <article className={styles.card}>
+    <Link to="/mw05/expert">
+      <h2>📄️ Expert Career Any% route</h2>
       <p>Your path to the top.</p>
-  </a>
-</div>
+    </Link>
+  </article>
+
+</section>
