@@ -160,6 +160,7 @@
 .theme-layout-footer-column.col.footer__col:first-of-type .footer__items.clean-list {
   display: grid !important;
   grid-template-columns: repeat(3, minmax(0, 10rem)) !important;
+  align-items: start;
 }
 
 .theme-layout-footer-column.col.footer__col:first-of-type 
