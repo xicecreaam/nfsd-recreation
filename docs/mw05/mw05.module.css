@@ -1,6 +1,6 @@
 .cardGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1.5rem;
   margin-top: 2rem;
 }
@@ -21,18 +21,36 @@
   box-shadow: 0 3px 6px 0 #0003;
 }
 
+.card {
+  display: flex;
+  background: var(--ifm-card-background-color);
+  padding: 1.25rem;
+  border-radius: var(--ifm-card-border-radius);
+  border: 1px solid var(--ifm-color-emphasis-300);
+  flex-direction: column;
+  overflow: hidden;
+}
 
 a:hover {
     color: var(--ifm-link-hover-color);
     text-decoration: var(--ifm-link-hover-decoration);
 }
 
-.cardTitle {
+.card a {
+  color: var(--ifm-link-color);
+  text-decoration: var(--ifm-link-decoration);
+}
+
+.card h2 {
     font-size: 1.2rem;
 }
 
 .cardDescription {
     font-size: 0.8rem;
+}
+
+.card p {
+  margin: 0 0 var(--ifm-paragraph-margin-bottom);
 }
 
 .text--truncate {
@@ -41,3 +59,6 @@ a:hover {
     white-space: nowrap;
 }
 
+.padding--lg {
+    padding: 2rem !important;
+}
