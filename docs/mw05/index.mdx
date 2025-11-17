@@ -14,48 +14,45 @@ import styles from './mw05.module.css';
 <div className="row">
 
   <div className="col col--4">
+    <Link to="/mw05/setup" className={styles.card}>
+      <h2>📄️ Setting up for speedruns</h2>
+      <p>All the information needed to set up the PC version of Most Wanted for speedruns.</p>
+    </Link>
+  </div>
 
-      <Link to="/mw05/setup" className={styles.card}>
-        <h2>📄️ Setting up for speedruns</h2>
-        <p>All the information needed to set up the PC version of Most Wanted for speedruns.</p>
-      </Link>
-    </div>
+  <div className="col col--4">  
+    <Link to="/mw05/general" className={styles.card}>
+      <h2>📄️ General Information</h2>
+      <p>Basic information for full game speedruns everyone should know.</p>
+    </Link>
+  </div>
 
-    <div className={styles.card}>
-      <Link to="/mw05/general" className={styles.card}>
-        <h2>📄️ General Information</h2>
-        <p>Basic information for full game speedruns everyone should know.</p>
-      </Link>
-    </div>
+  <div className="col col--4">
+    <Link to="/mw05/simple-any" className={styles.card}>
+      <h2>📄️ Simple Career Any% guide</h2>
+      <p>The best Any% route for new runners.</p>
+    </Link>
+  </div>
 
-    <div className={styles.card}>
-      <Link to="/mw05/simple-any" className={styles.card}>
-        <h2>📄️ Simple Career Any% guide</h2>
-        <p>The best Any% route for new runners.</p>
-      </Link>
-    </div>
+  <div className="col col--4">
+    <Link to="/mw05/inter-any" className={styles.card}>
+      <h2>📄️ Intermediate Career Any% guide</h2>
+      <p>Getting serious.</p>
+    </Link>
+  </div>
 
-    <div className={styles.card}>
-      <Link to="/mw05/inter-any" className={styles.card}>
-        <h2>📄️ Intermediate Career Any% guide</h2>
-        <p>Getting serious.</p>
-      </Link>
-    </div>
+  <div className="col col--4">
+    <Link to="/mw05/info" className={styles.card}>
+      <h2>📄️ Advanced Information</h2>
+      <p>Advanced information for those who want to delve deeper.</p>
+    </Link>
+  </div>
 
-    <div className={styles.card}>
-      <Link to="/mw05/info" className={styles.card}>
-        <h2>📄️ Advanced Information</h2>
-        <p>Advanced information for those who want to delve deeper.</p>
-      </Link>
-    </div>
-
-    <div className={styles.card}>
-      <Link to="/mw05/expert-any" className={styles.card}>
-        <h2>📄️ Expert Career Any% route</h2>
-        <p>Your path to the top.</p>
-      </Link>
-    </div>
-
+  <div className="col col--4">
+    <Link to="/mw05/expert-any" className={styles.card}>
+      <h2>📄️ Expert Career Any% route</h2>
+      <p>Your path to the top.</p>
+    </Link>
   </div>
   
 </div>
