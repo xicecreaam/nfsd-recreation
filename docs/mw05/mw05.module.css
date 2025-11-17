@@ -5,38 +5,24 @@
   margin-top: 2rem;
 }
 
-.cardContainer {
-  display: flex !important;
-  flex-direction: column;
-  height: 100%;
-  border-radius: 12px;
-  border: 1px solid var(--ifm-color-emphasis-200);
-  --ifm-link-color: var(--ifm-color-emphasis-800);
-  --ifm-link-hover-color: var(--ifm-color-emphasis-700);
-  --ifm-link-hover-decoration: none;
-  background: var(--ifm-card-background-color);
-  transition: all var(--ifm-transition-fast) ease;
-  transition-property: border, box-shadow;
-}
-
-.cardContainer:hover {
-  border-color: var(--ifm-color-primary);
-  box-shadow: 0 3px 6px 0 #0003;
-}
-
 .card {
   display: flex;
-  background: var(--ifm-card-background-color);
-  padding: 1.25rem;
-  border-radius: var(--ifm-card-border-radius);
-  border: 1px solid var(--ifm-color-emphasis-300);
   flex-direction: column;
-  overflow: hidden;
+  padding: 1.5rem;
+  border-radius: 12px;
+
+  background-color: var(--ifm-card-background-color);
+  border: 1px solid var(--ifm-color-emphasis-200);
+
+  color: var(--ifm-font-color-base);
+  text-decoration: none !important;
+
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
 }
 
-a:hover {
-    color: var(--ifm-link-hover-color);
-    text-decoration: var(--ifm-link-hover-decoration);
+.card:hover {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 4px 8px #0004;
 }
 
 .card a {
@@ -45,7 +31,10 @@ a:hover {
 }
 
 .card h2 {
-    font-size: 1.2rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  color: var(--ifm-font-color-base);
 }
 
 .cardDescription {
@@ -53,7 +42,9 @@ a:hover {
 }
 
 .card p {
-  margin: 0 0 var(--ifm-paragraph-margin-bottom);
+  margin: 0;
+  opacity: 0.8;
+  font-size: 0.9rem;
 }
 
 .text--truncate {
