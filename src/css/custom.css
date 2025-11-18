@@ -56,20 +56,20 @@
   main[class^="docMainContainer"] {
     max-width: none !important;
   }
-  main[class^="docSidebarContainer"] {
+  [class^="docSidebarContainer"] {
     width: 20%;
   }
 }
 
 @media (min-width: 1537px) {
-  main[class^="docSidebarContainer"] {
+  [class^="docSidebarContainer"] {
     width: 15%;
   }
 }
 
 @media (min-width: 997px) {
   @media (min-width: 1537px) {
-    main[class^="docSidebarContainer"] {
+    [class^="docSidebarContainer"] {
       width: 15%;
     }
   }
