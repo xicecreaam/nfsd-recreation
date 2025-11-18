@@ -29,7 +29,7 @@
 }
 
 .cardContainer p.cardDescription:last-child {
-  margin-bottom: var(--ifm-paragraph-margin-bottom) !important;
+  margin-bottom: 0;
 }
 
 .cardTitle {
