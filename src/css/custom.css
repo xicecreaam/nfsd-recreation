@@ -77,6 +77,12 @@
   margin-bottom: 4px;
 }
 
+.menu {
+  font-weight: var(--ifm-font-weight-semibold);
+  font-size: .95rem;
+  overflow-x: hidden;
+}
+
 .menu__link {
   line-height: 1.25;
   font-weight: 600;
