@@ -53,8 +53,11 @@
       padding: 0.5rem 0.25rem 0.5rem 0.5rem;
     }
   }
-  .docMainContainer {
+  .docMainContainer_TBSr {
     max-width: auto;
+  }
+  .sidebar_njMd {
+    width: 100%;
   }
 }
 
