@@ -53,23 +53,23 @@
       padding: 0.5rem 0.25rem 0.5rem 0.5rem;
     }
   }
-  .theme-doc-main > main[class^="docMainContainer"] {
+  main[class^="docMainContainer"] {
     max-width: none !important;
   }
-  .theme-doc-sidebar-item.docSidebarContainer {
+  main[class^="docSidebarContainer"] {
     width: 20%;
   }
 }
 
 @media (min-width: 1537px) {
-  aside.docSidebarContainer {
+  main[class^="docSidebarContainer"] {
     width: 15%;
   }
 }
 
 @media (min-width: 997px) {
   @media (min-width: 1537px) {
-    aside.docSidebarContainer {
+    main[class^="docSidebarContainer"] {
       width: 15%;
     }
   }
