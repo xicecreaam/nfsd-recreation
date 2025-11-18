@@ -27,6 +27,10 @@
   box-shadow: 0 4px 8px #0004;
 }
 
+.cardContainer :last-child {
+    margin-bottom: 0;
+}
+
 .cardTitle {
   font-size: 1.2rem;
 }
