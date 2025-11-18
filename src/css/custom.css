@@ -54,9 +54,9 @@
     }
   }
   .docMainContainer {
-    max-width: none;
+    max-width: 100% !important;
   }
-  aside.docSidebarContainer {
+  .theme-doc-sidebar-item.docSidebarContainer {
     width: 20%;
   }
 }
