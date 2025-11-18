@@ -23,11 +23,6 @@
   transition-property: border, box-shadow;
 }
 
-.cardContainer a {
-  color: inherit !important;
-  text-decoration: none !important;
-}
-
 .cardContainer:hover {
   border-color: var(--ifm-color-primary);
   box-shadow: 0 4px 8px #0004;
