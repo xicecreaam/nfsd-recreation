@@ -1,10 +1,6 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import Head from '@docusaurus/Head';
 
-<Head>
-  <title>Welcome to Need for SpeedDocs Reborn</title>
-</Head>
-
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Need for SpeedDocs Reborn',
