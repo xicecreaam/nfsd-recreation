@@ -28,3 +28,34 @@ The boss skip is a PC exclusive glitch which allows us to skip half of the bosse
 Make sure the intro videos and cutscenes play correctly. Invalid installations with missing or broken videos are not allowed. For example, when you launch the game, after the very short loading screen, if you are automatically sent to the splashscreen (the `Press to Start to continue` screen), your installation is invalid.
 
 Make sure that the game music, sound effects, assets all play and appear correctly. Modified installations are not allowed. For more information, read [the Category rules from speedrun.com](https://www.speedrun.com/nfsmw05?h=Career_Any-Glitches&rules=category&x=w20n48dn-yn2dod85.4qy7yo3q).
+
+### Black Edition
+
+If you have a Black Edition copy, you might want to disable the additional content. To do so, delete the `INGAMEC.BUN` file inside the GLOBAL folder or move it somewhere else.
+
+If you would like to enable Black Edition content, you can [download the Black Edition file from speedrun.com](https://www.speedrun.com/nfsmw05/resources/cngqz).
+
+### Cash bonus for career
+
+If you are on PC, you can find [an Underground 2 savefile on speedrun.com](https://www.speedrun.com/nfsmw05/resources/etuj9) to get the 10 000 cash bonus at the start of career. The save file location is `%AppData%\Local\NFS Underground 2`. You can get the bonus cash on consoles that had an Underground 2 release if you have a save file on the memory card. Without the bonus cash, the second best car is the Chevrolet Cobalt SS. If you don't know where to find the save file location with the path, you can follow [this tutorial](https://www.youtube.com/watch?v=xdglxyQjv6Y).
+
+### Widescreen fix
+
+**The only modification currently allowed is [an older version of widescreen fix](https://www.speedrun.com/nfsmw05/resources/wpwzz).** Why an older version ? Newer versions contain an setting called `SimRate` that modifies the physics of the game in general. To install widescreen fix, extract the contents of the archive into your game folder.
+
+After you've installed the widescreen fix, enter the scripts folder and open `NFSMostWanted.WidescreenFix.ini` with a text editor to configure it. If you are on version 1.2, **disable FixHUD by setting it to `0`**, as it prevents the game from launching. **SkipIntro isn't allowed for speedruns**, since it lets you skip movies/cutscenes.
+
+### Controller support
+
+#### Xbox (XInput)
+
+The game has full support for XInput (Xbox) controllers including button overlays with `ImproveGamepadSupport = 1` in `NFSMostWanted.WidescreenFix.ini`.
+
+#### PlayStation
+
+PlayStation controllers require extra steps. The recommended method is using Steam and [adding Most Wanted as a Non-Steam Game](https://help.steampowered.com/en/faqs/view/4B8B-9697-2338-40EC). This way you can use Steam to configure your controller. To display Playstation buttons ingame, set `ImproveGamepadSupport = 2` in `NFSMostWanted.WidescreenFix.ini`.
+
+#### Deadzone
+
+You can configure the deadzone in `NFSMostWanted.WidescreenFix.ini` by changing `LeftStickDeadzone`. You can use [Gamepad Tester](https://hardwaretester.com/gamepad) to determine the minimum safe value. Best setting depends on your preference. If you want a sensitive stick, set it as low as you can without the car turning on its own, otherwise use slightly higher values. The default value of 10 works well enough for most.
+
