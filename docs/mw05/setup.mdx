@@ -73,3 +73,52 @@ PlayStation controllers require extra steps. The recommended method is using Ste
 
 You can configure the deadzone in `NFSMostWanted.WidescreenFix.ini` by changing `LeftStickDeadzone`. You can use [Gamepad Tester](https://hardwaretester.com/gamepad) to determine the minimum safe value. Best setting depends on your preference. If you want a sensitive stick, set it as low as you can without the car turning on its own, otherwise use slightly higher values. The default value of 10 works well enough for most.
 
+## Recommended settings
+
+**Do NOT enable comptibility mode or run the game as administrator.** It is not needed and only causes issues.
+
+The game can randomly crash, primarily on loading screens, unless you **set affinity to a single core or thread**. To prevent crashes, you have two solutions :
+
+* Method 1
+
+    You can [download](https://mega.nz/file/l5QiiD7Y#PL7SmcvLKlxxT9OcdbpSbe53YZSQGTA1ct65RoZe2Ao) and place a .bat file next to your game executable that automatically set the process to 1 core/thread and launch the game.
+
+* Method 2
+
+    Alternatively, you can use an application like [Process Lasso](https://bitsum.com/download-process-lasso/) to automatically change the affinity whenever the game starts. Launch the game then right click the process (speed.exe) in Process Lasso : CPU Affinity > Always > Select CPU Affinity > Untick ALL, tick a single CPU and click OK. Avoid CPU 0 and 1 if possible, because Windows often uses these for background processes by default. If you don't prefer a video tutorial, you can follow [this](https://www.youtube.com/watch?v=DXtiAh9AJkk).
+
+**Enable rain in graphics options** if you are on modern Windows (10/11, maybe 8 too i didn't test it) to avoid game crashes when getting busted. It’s likely caused by a shader issue related to the blurring on the protagonist’s face.
+
+Maximum World Level of Detail enables a lot of additional smackable decoration on the map. Reduce this setting by at least one bar below the max, but only if using the simple route.
+
+Overall high graphics options can cause flickering or disappearing of objects including vehicles during cop chases. You can avoid this by setting **Car Reflection Detail to low, Car Reflections Update Rate to 0 AND Road Reflection Detail to 0**.
+
+insérer exemples flickering
+
+**Disable Game Moment Camera in gameplay options.** It removes the cop zoom-in when you trigger a chase / jump camera when you jump.
+
+You can disable motion blur in the registry at `HKEY_CURRENT_USER\Software\Classes\VirtualStore\MACHINE\SOFTWARE\WOW6432Node\EA Games\Need for Speed Most Wanted` and set `g_MotionBlurEnable` to 0. Alternatively set `DisableMotionBlur` to 1 in `NFSMostWanted.WidescreenFix.ini`.
+
+If you experience low performance, make sure the game is using your dedicated graphics card. Reduce graphics settings like Shadow Detail and Visual Treatment. You can also try using [dxvk](https://github.com/doitsujin/dxvk/releases), which can increase performance by 20-30% on some modern systems. To use it, place the 32 bits d3d9.dll next to the game executable.
+
+### Framerate requirements
+
+**Locking the frame rate up to 64 FPS is required for speedruns.** You can use the ingame vsync option if you have a 60hz display. If not, I recommend [RivaTuner Statistics Server (RTSS)](https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download/) or your graphics driver. 61 or 64 FPS can help with more stable frametimes for some people.
+
+**Displaying your framerate is also required.** You can use [RivaTuner Statistics Server (RTSS)](https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download/) for this too, or the overlay of your graphics driver. If you are using [OBS](https://obsproject.com/) and RTSS, enable Use Microsoft Detours API hooking in the settings of RTSS and enable Capture third-party overlays in the Game Capture of OBS. You can follow [this tutorial](https://www.youtube.com/watch?v=ppFk7agVOhU) for easier comfort.
+
+## LiveSplit and timing
+
+LiveSplit is a timer program for speedrunners that is both easy to use and full of features. You can download it [here](https://livesplit.org/downloads/).
+
+**The primary timing method for this game is Load Removed Time (LRT)**, or LoadLess (LL). Loading times are not consistent in this game, depending on FPS, hardware configuration and loaded content. Since the game generates random racers, the loading time is different every time you enter a race.
+
+**Please use LiveSplit with the load remover and auto-splitter activated in the Splits Editor**. By settting the Game Name to `Need for Speed: Most Wanted (2005)`, the load remover + auto-splitter appears and you will be able to activate and modify it. Alternatively, you can add a .asl file that activate the load remover and the auto-splitter.
+
+**Make sure Refresh Rate in LiveSplit Settings is set to 60 or higher**, otherwise the load remover and autosplitter might not work correctly.
+
+You can follow [this tutorial](https://www.youtube.com/watch?v=aV5xdbrt5Qs) for more information.
+
+### Premade Subsplits
+
+**[Download subsplits, layout and the autosplitter here]**(https://drive.google.com/file/d/1jgaWJ4uzYA6jdN2mgunZcUxiymnjGgij/view?usp=sharing), made for the routes covered in this guide. Make sure you compare against Game Time.
