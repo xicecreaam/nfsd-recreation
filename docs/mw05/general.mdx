@@ -47,7 +47,7 @@ The maximum number of cops that can chase you at a given time is different based
 
 You start getting light SUVs at condition 3 and heavy SUVs at condition 4 and 5. They spawn in two different ways : **when a roadblock spawn** or **when a rhino wave spawn**.
 
-You start getting a helicopter and spike spawns at condition 4. You can kill the helicopter if it flies over a triggered pursuit breaker *(it can also trigger the tire and donut pursuit breakers by itself and kill itself)*. To know if you killed the helicopter, your bounty should end on a number that’s not 0 e.g. `18` or `54`. For some reasons, the bounty reward of the helicopter is missing and when you kill it, you are granted a random small amount of bounty.
+You start getting a helicopter and spike spawns at condition 4. You can kill the helicopter if it flies over a triggered pursuit breaker *(it can also trigger the tire and donut pursuit breakers by itself and kill itself)*. To know if you killed the helicopter, your bounty should end on a number that’s not 0 e.g. `18` or `54`. For some reasons, the bounty reward of the helicopter is missing and when you kill it, you are granted a random small amount of bounty. Escaping while being chased by the helicopter can be hard sometimes. Note that he won't never bust you but he will idle above you and to escape it (+ the cops) you need to find a hiding spot where there is a "roof". There are few blindspots around the map but there is one that is very effective. You can [follow this tutorial](https://youtu.be/jynWhHpASlU?t=9111) to see how to do it.
 
 When you kill cops, you can benefit of something called `bounty combo`. See it like a multiplier set to your bounty grind : you kill one cop and you will have its `cop bounty reward x 1`. You kill another cop, `cop bounty reward x 2`. You kill a third cop, `cop bounty reward x 3`. This combo stays for exactly 10 seconds between each kill. If you don't kill any cop within this window, the combo will drop to the `x 1` multiplier.
 
@@ -121,3 +121,10 @@ Below are some examples of how to properly flip the cops in different roadblocks
   </Tabs>
 </details>
 
+## Map-related warnings & known game bugs
+
+**Avoid the highways and Rosewood’s stadium at all costs on conditions 4 and 5**. The game has a memory leak when it tries to spawn a block and the game may crash. *It can also crash on condition 3 as well but it’s a small chance*.
+
+[This hiding spot](https://imgur.com/a/kA4vorU) is generally one of the safest spots to escape cops. Sometimes you may experience a bug where the helicopter will keep seeing you no matter what and you have to **go outside and come back again** to fully fix it.
+
+Escaping in the safe house skips having to wait for the cooldown. Doing this strat may cause the **safe house escape glitch** where you don’t go inside it but get spawned outside and immediately start a new chase.
