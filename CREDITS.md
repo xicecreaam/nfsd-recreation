@@ -1,10 +1,10 @@
 # Credits
 The following individuals have contributed to the project in a notable way.
 
-# Underground 1
+# Underground 1 Guide
 * LokyZen
 
-# Underground 2
+# Underground 2 Guide
 * Jigsaw
 * SlivenKage
 
@@ -12,18 +12,18 @@ The following individuals have contributed to the project in a notable way.
 * IceCream
 * Slivenkage
 
-# Carbon
+# Carbon Guide
 * Cousin
 * Artacer (i hope)
 
-# ProStreet
+# ProStreet Guide
 * IceCream
 * Seven
 
-# Undercover
+# Undercover Guide
 * CrayZeei
 * lerep (i guess ?)
 
-# The Run
+# The Run Guide
 * SlivenKage
 * ItzSamOnPC
