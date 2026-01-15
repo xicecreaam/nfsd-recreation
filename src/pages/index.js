@@ -31,7 +31,7 @@ export default function Home() {
               (WIP) <Link to="/ug2" style={{ color: '#d94d4c' }}>Need for Speed: Underground 2</Link> by <Link to="https://www.speedrun.com/users/SlivenKage" style={{ color: '#d94d4c' }}>SlivenKage</Link>
             </li>
             <li style={{ marginBottom: '0.5rem' }}>
-              <Link to="/mw05" style={{ color: '#d94d4c' }}>Need for Speed: Most Wanted (2005)</Link> by <Link to="https://www.speedrun.com/users/SlivenKage" style={{ color: '#d94d4c' }}>SlivenKage</Link> and <Link to="https://www.speedrun.com/users/icecreaam" style={{ color: '#d94d4c' }}></Link>IceCream
+              <Link to="/mw05" style={{ color: '#d94d4c' }}>Need for Speed: Most Wanted (2005)</Link> by <Link to="https://www.speedrun.com/users/SlivenKage" style={{ color: '#d94d4c' }}>SlivenKage</Link> and <Link to="https://www.speedrun.com/users/icecreaam" style={{ color: '#d94d4c' }}>IceCream</Link>
             </li>
             <li style={{ marginBottom: '0.5rem' }}>
               (WIP) <Link to="/c" style={{ color: '#d94d4c' }}>Need for Speed: Carbon</Link> by <Link to="https://web.archive.org/web/20250422161151/https://www.speedrun.com/users/Artacer" style={{ color: '#d94d4c' }}>Artacer</Link> and  <Link to="https://www.speedrun.com/users/Cousin" style={{ color: '#d94d4c' }}>Cousin</Link>
