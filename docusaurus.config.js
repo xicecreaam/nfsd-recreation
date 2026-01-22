@@ -112,7 +112,7 @@ const config = {
             title: 'More NFS docs may be',
             items: [
               {
-                label: 'added if necessary',
+                html: '<span>added if necessary</span>',
               },
             ],
           },
