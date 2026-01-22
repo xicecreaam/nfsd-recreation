@@ -60,7 +60,7 @@ const config = {
         respectPrefersColorScheme: false,
       },
       navbar: {
-        title: 'NFSD',
+        title: '‎',
         logo: {
           alt: 'NFSD logo',
           src: 'img/nfsd-logo.png',},
