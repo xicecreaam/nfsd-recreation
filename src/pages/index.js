@@ -15,7 +15,7 @@ export default function Home() {
           </h1>
           <p style={{ marginTop: '0.5rem', fontSize: '18px', color: '#ccc' }}>
             This website is aiming to rehost speedrunning documentation for most Need for Speed games that has been shut down by Balathruin himself, creator of the original website.<br />
-            Currently looking for contributors to expand. If interested, you can contact me on Discord <code>icecreaam_</code>.
+            Currently looking for contributors to expand. If interested, you can contact me on Discord <code>xicecreaam</code>.
           </p>
         </header>
 
