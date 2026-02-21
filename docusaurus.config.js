@@ -30,7 +30,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          routeBasePath: '/',
+          routeBasePath: 'docs',
         },
         blog: {
           showReadingTime: true,
@@ -85,13 +85,13 @@ const config = {
           {
             title: 'Black Box Games',
             items: [
-              { label: 'Underground 1', to: '/nfsd-reborn/ug1'},
-              { label: 'ProStreet', to: '/nfsd-reborn/ps'},
-              { label: 'Underground 2', to: '/nfsd-reborn/ug2'},
-              { label: 'Undercover', to: '/nfsd-reborn/uc'},
-              { label: 'Most Wanted (2005)', to: '/nfsd-reborn/mw05'},
-              { label: 'The Run', to: '/nfsd-reborn/tr'},
-              { label: 'Carbon', to: '/nfsd-reborn/c'},
+              { label: 'Underground 1', to: '/ug1'},
+              { label: 'ProStreet', to: '/ps'},
+              { label: 'Underground 2', to: '/ug2'},
+              { label: 'Undercover', to: '/uc'},
+              { label: 'Most Wanted (2005)', to: '/mw05'},
+              { label: 'The Run', to: '/tr'},
+              { label: 'Carbon', to: '/c'},
             ],
           },
           {
