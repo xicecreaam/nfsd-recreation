@@ -11,9 +11,9 @@ const config = {
   },
 
   url: 'https://xicecreaam.github.io',
-  baseUrl: '/nfsd-recreation/',
+  baseUrl: '/nfsd-reborn/',
   organizationName: 'xicecreaam',
-  projectName: 'nfsd-recreation',
+  projectName: 'nfsd-reborn',
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -85,13 +85,13 @@ const config = {
           {
             title: 'Black Box Games',
             items: [
-              { label: 'Underground 1', to: '/nfsd-recreation/ug1'},
-              { label: 'ProStreet', to: '/nfsd-recreation/ps'},
-              { label: 'Underground 2', to: '/nfsd-recreation/ug2'},
-              { label: 'Undercover', to: '/nfsd-recreation/uc'},
-              { label: 'Most Wanted (2005)', to: '/nfsd-recreation/mw05'},
-              { label: 'The Run', to: '/nfsd-recreation/tr'},
-              { label: 'Carbon', to: '/nfsd-recreation/c'},
+              { label: 'Underground 1', to: '/nfsd-reborn/ug1'},
+              { label: 'ProStreet', to: '/nfsd-reborn/ps'},
+              { label: 'Underground 2', to: '/nfsd-reborn/ug2'},
+              { label: 'Undercover', to: '/nfsd-reborn/uc'},
+              { label: 'Most Wanted (2005)', to: '/nfsd-reborn/mw05'},
+              { label: 'The Run', to: '/nfsd-reborn/tr'},
+              { label: 'Carbon', to: '/nfsd-reborn/c'},
             ],
           },
           {
