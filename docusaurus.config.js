@@ -73,6 +73,11 @@ const config = {
           {to: 'uc', label: 'Undercover', position: 'left'},
           {to: 'tr', label: 'The Run', position: 'left'},
           {
+            href: 'https://mega.nz/folder/c4o2Tbbb#jXMHI3VqPF4GVYfJo6MxCw',
+            label: 'NFS games collection',
+            position: 'right',
+          },
+          {
             href: 'https://linktr.ee/xicecreaam',
             label: 'Linktree',
             position: 'right',
@@ -102,7 +107,7 @@ const config = {
                 href: 'https://www.speedrun.com/series/need_for_speed',
               },
               {
-                label: 'NFSR Discord',
+                label: 'Need for SpeedRuns `NFSR` Discord',
                 href: 'https://discord.gg/0q21vTfIVQ7xibxy',
               },
             ],
