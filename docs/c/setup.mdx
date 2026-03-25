@@ -64,7 +64,7 @@ You can configure the deadzone in `NFSCarbon.WidescreenFix.ini` by changing `Lef
 
 ## Recommended settings
 
-You can **enable compatibilty mode**, it helps if you are on Windows 7.
+You can **enable compatibilty mode** for Windows 7, it may help for some reasons.
 
 The game can randomly crash, primarily on loading screens, unless you **set affinity to a single core or thread**. To prevent crashes, you have two solutions :
 
@@ -74,7 +74,7 @@ The game can randomly crash, primarily on loading screens, unless you **set affi
 
 * Method 2
 
-    Alternatively, you can use an application like [Process Lasso](https://bitsum.com/download-process-lasso/) to automatically change the affinity whenever the game starts. Launch the game then right click the process (speed.exe) in Process Lasso : CPU Affinity > Always > Select CPU Affinity > Untick ALL, tick a single CPU and click OK. Avoid CPU 0 and 1 if possible, because Windows often uses these for background processes by default.
+    Alternatively, you can use an application like [Process Lasso](https://bitsum.com/download-process-lasso/) to automatically change the affinity whenever the game starts. Launch the game then right click the process (NFSC.exe) in Process Lasso : CPU Affinity > Always > Select CPU Affinity > Untick ALL, tick a single CPU and click OK. Avoid CPU 0 and 1 if possible, because Windows often uses these for background processes by default.
 
 <span style={{ fontSize: '1.3rem', fontWeight: 'bold' }}>
   Audio
@@ -93,14 +93,14 @@ The game can randomly crash, primarily on loading screens, unless you **set affi
 Let the **Particle System on**, it allows you to see the lap/finish markers.  
 Set everything else **as high as your PC can handle** for better visibility in general.
 
-If you experience low performance, make sure the game is using your dedicated graphics card. Reduce graphics settings like Shadow Detail and Visual Treatment. You can also try using [dxvk](https://github.com/doitsujin/dxvk/releases), which can increase performance by 20-30% on some modern systems. To use it, place the 32 bits d3d9.dll next to the game executable.
+If you experience low performance, make sure the game is using your dedicated graphics card. Reduce graphics settings like Shadow Detail and Visual Treatment (like Most Wanted, the blue filter in Carbon can be annoying). You can also try using [dxvk](https://github.com/doitsujin/dxvk/releases), which can increase performance by 20-30% on some modern systems. To use it, place the 32 bits d3d9.dll next to the game executable.
 
 <span style={{ fontSize: '1.3rem', fontWeight: 'bold' }}>
   Gameplay
 </span>
 
 Enable Autosave, this way you can reload your savefile easily if a terrority attack happens.  
-Set your transmission to **`manual`**. It is faster than `automatic`, it shifts early and reduces top speed. Manual gearbox also allows precise gear control. Make sure to bind **the clutch bind** in the `Controls` section. It grants you more speed on landings when **hold in mid-air and release when landing**.  
+Set your transmission to **`manual`**. It is faster than `automatic`, it shifts early and reduces top speed. Manual gearbox also allows precise gear control.  
 The camera choice is up to you but the preferred one is **hood camera**. Using it, you judge corners better.  
 **Disable Game Moment Camera in gameplay options.** It removes the cop zoom-in when you trigger a chase / jump camera when you jump.
 
@@ -115,11 +115,11 @@ The camera choice is up to you but the preferred one is **hood camera**. Using i
   Controls
 </span>
 
-Bind `Clutch`, `Reset Car Position` and `Activate Crew Member` to accessible locations.
+Bind `Accelerate` and `Brake/Reverse` to your controller triggers, `Shift Down`, `Shift Up` and `Clutch` to accessible locations.
 
 <span style={{ fontSize: '1.3rem', fontWeight: 'bold' }}>
   <font color="#d94c4c">
-    Anything left out is up to your preference.
+    Other binds like `NOS` or `Reset Car Position` are up to your preference.
   </font>
 </span>
 
@@ -127,7 +127,7 @@ Bind `Clutch`, `Reset Car Position` and `Activate Crew Member` to accessible loc
 
 ### Framerate requirements
 
-**Locking the frame rate up to 120 FPS is required for speedruns.** You can use the ingame vsync option if you have a 60hz display. If not, I recommend [RivaTuner Statistics Server (RTSS)](https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download/) or your graphics driver.
+**Locking the frame rate up to 120 FPS is required for speedruns.** If not, I recommend [RivaTuner Statistics Server (RTSS)](https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download/) or your graphics driver.
 
 **Displaying your framerate is also required.** You can use [RivaTuner Statistics Server (RTSS)](https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download/) for this too, or the overlay of your graphics driver. If you are using [OBS](https://obsproject.com/) and RTSS, enable Use Microsoft Detours API hooking in the settings of RTSS and enable Capture third-party overlays in the Game Capture of OBS.
 
