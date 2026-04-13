@@ -8,14 +8,14 @@ const sidebars = {
  
   mw05Sidebar: [{ type: 'category', label: 'Most Wanted (2005)', link: { type: 'doc', id: 'mw05/index' }, collapsed: true, collapsible: true,
     items: [
-      { type: 'doc', id: 'mw05/index-any', label: 'Any% Glitches' },
-      { type: 'doc', id: 'mw05/index-nmg', label: 'Any% No Major Glitches' },
-      { type: 'doc', id: 'mw05/index-lw', label: 'Least Wanted Any%' }, ], },
+      { type: 'doc', id: 'mw05/any/index', label: 'Any% Glitches' },
+      { type: 'doc', id: 'mw05/nmg/index', label: 'Any% No Major Glitches' },
+      { type: 'doc', id: 'mw05/lw/index', label: 'Least Wanted Any%' }, ], },
 
   {type: 'link', label: 'Speedrun.com page', href: 'https://www.speedrun.com/nfsmw05',},
   {type: 'link', label: 'Category Extensions page', href: 'https://www.speedrun.com/nfsmw05_ce',}],
 
-  anymw05Sidebar: [{ type: 'category', label: 'Most Wanted Any% Glitches', link: { type: 'doc', id: 'mw05/any/index-any' }, collapsed: true, collapsible: true,
+  anymw05Sidebar: [{ type: 'category', label: 'Most Wanted Any% Glitches', link: { type: 'doc', id: 'mw05/any/index' }, collapsed: true, collapsible: true,
     items: [
       { type: 'doc', id: 'mw05/any/setup', label: 'Setting up for speedruns' },
       { type: 'doc', id: 'mw05/any/general', label: 'General information' },
