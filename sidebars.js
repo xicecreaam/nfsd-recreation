@@ -15,12 +15,12 @@ const sidebars = {
       { type: 'doc', id: 'mw05/any/inter-any' },
       { type: 'doc', id: 'mw05/any/info' },
       { type: 'doc', id: 'mw05/any/expert-any' } ] },
-          { type: 'category', label: 'Most Wanted Any% No Major Glitches', link: { type: 'doc', id: 'mw05/nmg/index' }, collapsed: true, collapsible: true,
+           { type: 'category', label: 'Most Wanted Any% No Major Glitches', link: { type: 'doc', id: 'mw05/nmg/index' }, collapsed: true, collapsible: true,
     items: [
       { type: 'doc', id: 'mw05/nmg/setup' },
       { type: 'doc', id: 'mw05/nmg/general' },
       { type: 'doc', id: 'mw05/nmg/any' } ] },
-          { type: 'category', label: 'Least Wanted Any%', link: { type: 'doc', id: 'mw05/lw/index' }, collapsed: true, collapsible: true,
+           { type: 'category', label: 'Least Wanted Any%', link: { type: 'doc', id: 'mw05/lw/index' }, collapsed: true, collapsible: true,
     items: [
       { type: 'doc', id: 'mw05/lw/setup' },
       { type: 'doc', id: 'mw05/lw/general' },
@@ -28,12 +28,6 @@ const sidebars = {
 
 { type: 'link', label: 'Speedrun.com page', href: 'https://www.speedrun.com/nfsmw05' },
 { type: 'link', label: 'Category Extensions page', href: 'https://www.speedrun.com/nfsmw05_ce' } ] ,
-
-  lwmw05Sidebar: [{ type: 'category', label: 'Least Wanted Any%', link: { type: 'doc', id: 'mw05/lw/index' }, collapsed: true, collapsible: true,
-    items: [
-      { type: 'doc', id: 'mw05/lw/setup', label: 'Setting up for speedruns' },
-      { type: 'doc', id: 'mw05/lw/general', label: 'General information' },
-      { type: 'doc', id: 'mw05/lw/any', label: 'Any% route' }, ], }, ],
 
   cSidebar: [{ type: 'category', label: 'Carbon', link: { type: 'doc', id: 'c/index' }, collapsed: true, collapsible: true,
     items: [
