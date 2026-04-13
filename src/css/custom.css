@@ -45,8 +45,8 @@
 }
 
 @media (min-width: 997px) {
-  .row > *[class*="docItemCol_"] {
-    max-width: 100% !important;
+  .docItemCol_{
+    max-width: calc(100 - var(--ifm-col-width)) !important;
   }
   @supports (scrollbar-gutter: stable) {
     .menu.menu {
