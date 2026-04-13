@@ -15,6 +15,7 @@ const sidebars = {
       { type: 'doc', id: 'mw05/any/inter-any' },
       { type: 'doc', id: 'mw05/any/info' },
       { type: 'doc', id: 'mw05/any/expert-any' } ] },
+
            { type: 'category', label: 'Most Wanted Any% No Major Glitches', link: { type: 'doc', id: 'mw05/nmg/index' }, collapsed: true, collapsible: true,
     items: [
       { type: 'doc', id: 'mw05/nmg/setup' },
@@ -27,7 +28,9 @@ const sidebars = {
       { type: 'doc', id: 'mw05/lw/any' } ] } ] },
 
 { type: 'link', label: 'Speedrun.com page', href: 'https://www.speedrun.com/nfsmw05' },
-{ type: 'link', label: 'Category Extensions page', href: 'https://www.speedrun.com/nfsmw05_ce' } ] ,
+{ type: 'link', label: 'Category Extensions page', href: 'https://www.speedrun.com/nfsmw05_ce' },
+{ type: 'link', label: 'Extreme Most Wanted Racers', href: 'https://extrememostwantedracers.weebly.com/' },
+{ type: 'link', label: 'NFSMWRANKED', href: 'https://nfsmwrank2005.rf.gd/' }],
 
   cSidebar: [{ type: 'category', label: 'Carbon', link: { type: 'doc', id: 'c/index' }, collapsed: true, collapsible: true,
     items: [
