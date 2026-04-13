@@ -45,7 +45,7 @@
 }
 
 @media (min-width: 997px) {
-  .docItemCol_{
+  .col.docItemCol_{
     max-width: calc(100 - var(--ifm-col-width)) !important;
   }
   @supports (scrollbar-gutter: stable) {
