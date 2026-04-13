@@ -12,17 +12,17 @@ const sidebars = {
       { type: 'doc', id: 'mw05/index-nmg', label: 'Any% No Major Glitches' },
       { type: 'doc', id: 'mw05/index-lw', label: 'Least Wanted Any%' }, ], },
 
-  {type: 'link', label: 'Speedrun.com', href: 'https://www.speedrun.com/nfsmw05',},
-  {type: 'link', label: 'Category Extensions', href: 'https://www.speedrun.com/nfsmw05_ce',}],
+  {type: 'link', label: 'Speedrun.com page', href: 'https://www.speedrun.com/nfsmw05',},
+  {type: 'link', label: 'Category Extensions page', href: 'https://www.speedrun.com/nfsmw05_ce',}],
 
-  anymw05Sidebar: [{ type: 'category', label: 'Most Wanted Any% Glitches', link: { type: 'doc', id: 'mw05/index-any' }, collapsed: true, collapsible: true,
+  anymw05Sidebar: [{ type: 'category', label: 'Most Wanted Any% Glitches', link: { type: 'doc', id: 'mw05/any/index-any' }, collapsed: true, collapsible: true,
     items: [
-      { type: 'doc', id: 'mw05/setup', label: 'Setting up for speedruns' },
-      { type: 'doc', id: 'mw05/general', label: 'General information' },
-      { type: 'doc', id: 'mw05/simple-any', label: 'Simple Career Any% guide' },
-      { type: 'doc', id: 'mw05/inter-any', label: 'Intermediate Career Any% guide' },
-      { type: 'doc', id: 'mw05/info' , label: 'Advanced information' },
-      { type: 'doc', id: 'mw05/expert-any', label: 'Expert Career Any% route' }, ], },
+      { type: 'doc', id: 'mw05/any/setup', label: 'Setting up for speedruns' },
+      { type: 'doc', id: 'mw05/any/general', label: 'General information' },
+      { type: 'doc', id: 'mw05/any/simple-any', label: 'Simple Career Any% guide' },
+      { type: 'doc', id: 'mw05/any/inter-any', label: 'Intermediate Career Any% guide' },
+      { type: 'doc', id: 'mw05/any/info' , label: 'Advanced information' },
+      { type: 'doc', id: 'mw05/any/expert-any', label: 'Expert Career Any% route' }, ], },
         
   {type: 'link', label: 'Extreme Most Wanted Racers', href: 'https://extrememostwantedracers.weebly.com/',},
   {type: 'link', label: 'NFSMWRANKED', href: 'https://nfsmwrank2005.rf.gd/',}],
