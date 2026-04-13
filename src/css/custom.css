@@ -45,8 +45,10 @@
 }
 
   @media (min-width: 997px) {
-    :is(.docItemCol, div[class*="docItemCol"]) {
+    .docItemCol,
+    div[class*="docItemCol"] {
       max-width: 100% !important;
+      width: 100% !important;
   }
 
   @supports (scrollbar-gutter: stable) {
