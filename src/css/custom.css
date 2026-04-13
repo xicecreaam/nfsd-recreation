@@ -44,10 +44,9 @@
   --ifm-color-gray-700: #4e5155;
 }
 
-@media (min-width: 997px) {
-  [class^="docItemCol"],
-  [class*=" docItemCol"] {
-    max-width: calc(100% - 250px) !important;
+  @media (min-width: 997px) {
+    :is(.docItemCol, div[class*="docItemCol"]) {
+      max-width: 100% !important;
   }
 
   @supports (scrollbar-gutter: stable) {
