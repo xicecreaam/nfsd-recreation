@@ -45,8 +45,9 @@
 }
 
 @media (min-width: 997px) {
-  [class*="docItemCol"] {
-    max-width: calc(100% - 250px) !important;
+  .docItemCol,
+    [class*="docItemCol"] {
+    max-width: 100% !important;
   }
 
   @supports (scrollbar-gutter: stable) {
