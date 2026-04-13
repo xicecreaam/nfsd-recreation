@@ -47,6 +47,7 @@
 @media (min-width: 997px) {
   .row > *[class*="docItemCol_"] {
     max-width: 100% !important;
+    justify-content: flex-start !important;
   }
   @supports (scrollbar-gutter: stable) {
     .menu.menu {
