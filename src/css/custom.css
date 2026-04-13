@@ -45,9 +45,10 @@
 }
 
 @media (min-width: 997px) {
-  .col.docItemCol_{
-    max-width: 100% !important;
+  [class*="docItemCol"] {
+    max-width: calc(100% - 250px) !important;
   }
+
   @supports (scrollbar-gutter: stable) {
     .menu.menu {
       padding: 0.5rem 0.25rem 0.5rem 0.5rem;
