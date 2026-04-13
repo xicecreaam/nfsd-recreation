@@ -80,6 +80,7 @@
 }
 
 .col.col--3:has(.theme-doc-toc-desktop) {
+  margin-left: auto !important;
   max-width: 250px !important;
   width: 250px !important;
   flex: 0 1 250px;
