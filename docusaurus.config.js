@@ -1,6 +1,7 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
+const name = 'NFSR' ;
 const config = {
   title: 'Need for SpeedDocs Reborn',
   tagline: 'This website is aiming to rehost speedrunning documentation for most Need for Speed games that has been shut down by Balathruin himself, creator of the original website. Currently looking for contributors to expand.',
@@ -97,8 +98,8 @@ const config = {
                 href: 'https://www.speedrun.com/series/need_for_speed',
               },
               {
-                html: 'Need for SpeedRuns <code>NFSR</code> Discord',
-                to: 'https://discord.gg/0q21vTfIVQ7xibxy',
+                label: 'Need for SpeedRuns ${name} Discord',
+                href: 'https://discord.gg/0q21vTfIVQ7xibxy',
               },
             ],
           },
