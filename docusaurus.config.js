@@ -98,7 +98,7 @@ const config = {
               },
               {
                 html: 'Need for SpeedRuns <code>NFSR</code> Discord',
-                href: 'https://discord.gg/0q21vTfIVQ7xibxy',
+                to: 'https://discord.gg/0q21vTfIVQ7xibxy',
               },
             ],
           },
