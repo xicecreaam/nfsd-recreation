@@ -97,7 +97,7 @@ const config = {
                 href: 'https://www.speedrun.com/series/need_for_speed',
               },
               {
-                label: 'Need for SpeedRuns `NFSR` Discord',
+                label: 'Need for SpeedRuns <code>NFSR</code> Discord',
                 href: 'https://discord.gg/0q21vTfIVQ7xibxy',
               },
             ],
