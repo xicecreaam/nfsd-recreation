@@ -20,9 +20,10 @@ const sidebars = {
     items: [
       { type: 'doc', id: 'mw05/nmg/setup' },
       { type: 'doc', id: 'mw05/nmg/general' },
-      { type: 'doc', id: 'mw05/nmg/any' } ] },
+      { type: 'doc', id: 'mw05/nmg/any' } ] } ] },
 
-           { type: 'category', label: 'All Bosses Any%', link: { type: 'doc', id: 'mw05/ce/all-bosses/index' }, collapsed: true, collapsible: true,
+                { type: 'category', label: 'Category Extensions', link: { type: 'doc', id: 'mw05/ce/index' }, collapsed: true, collapsible: true,
+    items: [{ type: 'category', label: 'All Bosses Any%', link: { type: 'doc', id: 'mw05/ce/all-bosses/index' }, collapsed: true, collapsible: true,
     items: [
       { type: 'doc', id: 'mw05/ce/all-bosses/setup' },
       { type: 'doc', id: 'mw05/ce/all-bosses/general' },
