@@ -23,23 +23,23 @@ const sidebars = {
       { type: 'doc', id: 'mw05/nmg/any' } ] },
 
            { type: 'category', label: 'Category Extensions', link: { type: 'doc', id: 'mw05/ce/index' }, collapsed: true, collapsible: true,
-    items: [{ type: 'category', label: 'Least Wanted Any%', link: { type: 'doc', id: 'mw05/lw/index' }, collapsed: true, collapsible: true,
+    items: [{ type: 'category', label: 'Least Wanted Any%', link: { type: 'doc', id: 'mw05/ce/lw/index' }, collapsed: true, collapsible: true,
     items: [
       { type: 'doc', id: 'mw05/lw/setup' },
       { type: 'doc', id: 'mw05/lw/general' },
       { type: 'doc', id: 'mw05/lw/any' } ] },
 
-           { type: 'category', label: 'All Bosses Any%', link: { type: 'doc', id: 'mw05/all-bosses/index' }, collapsed: true, collapsible: true,
+           { type: 'category', label: 'All Bosses Any%', link: { type: 'doc', id: 'mw05/ce/all-bosses/index' }, collapsed: true, collapsible: true,
     items: [
-      { type: 'doc', id: 'mw05/all-bosses/setup' },
-      { type: 'doc', id: 'mw05/all-bosses/general' },
-      { type: 'doc', id: 'mw05/all-bosses/any' } ] },
+      { type: 'doc', id: 'mw05/ce/all-bosses/setup' },
+      { type: 'doc', id: 'mw05/ce/all-bosses/general' },
+      { type: 'doc', id: 'mw05/ce/all-bosses/any' } ] },
 
-{ type: 'category', label: 'No Lap Glitch Any%', link: { type: 'doc', id: 'mw05/nlg/index' }, collapsed: true, collapsible: true,
+{ type: 'category', label: 'No Lap Glitch Any%', link: { type: 'doc', id: 'mw05/ce/nlg/index' }, collapsed: true, collapsible: true,
     items: [
-      { type: 'doc', id: 'mw05/nlg/setup' },
-      { type: 'doc', id: 'mw05/nlg/general' },
-      { type: 'doc', id: 'mw05/nlg/any' } ] } ] } ] },
+      { type: 'doc', id: 'mw05/ce/nlg/setup' },
+      { type: 'doc', id: 'mw05/ce/nlg/general' },
+      { type: 'doc', id: 'mw05/ce/nlg/any' } ] } ] } ] },
 
 { type: 'link', label: 'Speedrun.com page', href: 'https://www.speedrun.com/nfsmw05' },
 { type: 'link', label: 'Category Extensions page', href: 'https://www.speedrun.com/nfsmw05_ce' },
