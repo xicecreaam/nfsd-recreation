@@ -25,9 +25,9 @@ const sidebars = {
            { type: 'category', label: 'Category Extensions', link: { type: 'doc', id: 'mw05/ce/index' }, collapsed: true, collapsible: true,
     items: [{ type: 'category', label: 'Least Wanted Any%', link: { type: 'doc', id: 'mw05/ce/lw/index' }, collapsed: true, collapsible: true,
     items: [
-      { type: 'doc', id: 'mw05/lw/setup' },
-      { type: 'doc', id: 'mw05/lw/general' },
-      { type: 'doc', id: 'mw05/lw/any' } ] },
+      { type: 'doc', id: 'mw05/ce/lw/setup' },
+      { type: 'doc', id: 'mw05/ce/lw/general' },
+      { type: 'doc', id: 'mw05/ce/lw/any' } ] },
 
            { type: 'category', label: 'All Bosses Any%', link: { type: 'doc', id: 'mw05/ce/all-bosses/index' }, collapsed: true, collapsible: true,
     items: [
