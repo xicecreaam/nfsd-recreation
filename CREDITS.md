@@ -12,13 +12,17 @@ The following individuals have contributed to the project in a notable way.
 * Slivenkage
 
 # Carbon Guide
-* Looking for people
+* Zorro2376
+* Cousin
 
 # ProStreet Guide
-* Looking for people
+* IceCream
+* Seven
 
 # Undercover Guide
 * Looking for people
 
 # The Run Guide
-* Looking for people
+* ItzSamOnPC
+* SlivenKage
+* The_Unpunished
