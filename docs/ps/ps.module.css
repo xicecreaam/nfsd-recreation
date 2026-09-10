@@ -15,10 +15,6 @@
   overflow: hidden;
 }
 
-.card:hover {
-  box-shadow: 0 4px 8px #0004;
-}
-
 .cardContainer {
   --ifm-link-color: var(--ifm-color-emphasis-800);
   --ifm-link-hover-color: var(--ifm-color-emphasis-700);
