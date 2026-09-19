@@ -2,8 +2,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Need for SpeedDocs Reborn',
-  tagline: 'This website is aiming to rehost speedrunning documentation for most Need for Speed games that has been shut down by Balathruin himself, creator of the original website. Currently looking for contributors to expand.',
+  title: 'Need for SpeedDocs',
+  tagline: 'This website is aiming to host speedrunning documentation for most Need for Speed games. Currently looking for contributors to expand.',
   favicon: 'img/nfsdr-logo-v2.png',
 
   future: {
@@ -111,7 +111,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Need for SpeedDocs Reborn by icec̄ream.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Need for SpeedDocs by icec̄ream.`,
       },
       prism: {
         theme: prismThemes.github,

@@ -5,8 +5,8 @@ import Link from '@docusaurus/Link';
 export default function Home() {
   return (
     <Layout
-      title="Welcome to Need for SpeedDocs Reborn"
-      description="This website is aiming to rehost speedrunning documentation for most Need for Speed games that has been shut down by Balathruin himself, creator of the original website. Currently looking for contributors to expand."
+      title="Welcome to Need for SpeedDocs"
+      description="This website is aiming to host speedrunning documentation for most Need for Speed games. Currently looking for contributors to expand."
     >
       <main style={{ padding: '2rem', maxWidth: '2000px', textAlign: 'left' }}>
         <header>
