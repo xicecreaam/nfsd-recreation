@@ -67,11 +67,6 @@ const config = {
             label: 'NFS games collection',
             position: 'right',
           },
-          {
-            href: 'https://linktr.ee/xicecreaam',
-            label: 'Linktree',
-            position: 'right',
-          },
         ],
       },
       footer: {
@@ -111,7 +106,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Need for SpeedDocs by icec̄ream.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Need for SpeedDocs by <a href="https://www.twitch.tv/xicecreaam">icec̄ream</a>.`,
       },
       prism: {
         theme: prismThemes.github,
