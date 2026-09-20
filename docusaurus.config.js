@@ -106,7 +106,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Need for SpeedDocs by <a href="https://www.twitch.tv/xicecreaam">icec̄ream</a>.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Need for SpeedDocs by <a href="https://www.twitch.tv/xicecreaam" style="color: inherit;">icec̄ream</a>.`,
       },
       prism: {
         theme: prismThemes.github,
