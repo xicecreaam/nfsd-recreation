@@ -220,5 +220,14 @@
 }
 
 body.bg-tr   {
-  background: url('/img/backgrounds/the-run.gif')   center center / cover no-repeat fixed;
+    position: relative;
+}
+
+body.bg-tr::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: url('/img/backgrounds/the-run.gif') center center / cover no-repeat;
+  z-index: -1;
+  pointer-events: none;
 }
