@@ -11,9 +11,13 @@ const SECTIONS = {
 function applyBackground(pathname) {
   if (typeof document === 'undefined') return;
 
+  console.log('[bg] pathname:', pathname); // ligne temporaire
+
   const found = Object.keys(SECTIONS).find(
-    (key) => pathname.includes(`/${key}/`) || pathname.endsWith(`/${key}`)
+    (key) => pathname.includes(`/${key}/`) || pathname.endsWith(`/${key}/`)
   );
+
+  console.log('[bg] found:', found); // ligne temporaire
 
   let video = document.getElementById('section-bg-video');
 

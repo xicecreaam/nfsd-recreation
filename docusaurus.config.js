@@ -86,7 +86,7 @@ const config = {
               { label: 'Underground 2', to: 'ug2/'},
               { label: 'Undercover', to: 'uc/'},
               { label: 'Most Wanted (2005)', to: 'mw05/'},
-              { label: 'The Run', to: 'tr'},
+              { label: 'The Run', to: 'tr/'},
               { label: 'Carbon', to: 'c/'},
             ],
           },
