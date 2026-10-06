@@ -22,7 +22,7 @@ function applyBackground(pathname) {
     return;
   }
 
-  const src = `/img/backgrounds/${found}.mp4`;
+  const src = `/img/backgrounds/${SECTIONS[found]}.mp4`;
 
   if (!video) {
     video = document.createElement('video');
