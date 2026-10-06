@@ -35,7 +35,8 @@ function applyBackground(pathname) {
   }
 
   if (!video.src.endsWith(src)) {
-    video.src = src;
+  video.src = src;
+  video.play().catch(() => {}); // le .catch évite une erreur si le navigateur bloque quand même
   }
 }
 
