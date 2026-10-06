@@ -1,3 +1,5 @@
+import siteConfig from '@generated/docusaurus.config';
+
 const SECTIONS = {
   ug1: 'underground1',
   ug2: 'underground2',
@@ -12,7 +14,7 @@ function applyBackground(pathname) {
   if (typeof document === 'undefined') return;
 
   const found = Object.keys(SECTIONS).find(
-    (key) => pathname.includes(`/${key}/`) || pathname.endsWith(`/${key}/`)
+    (key) => pathname.includes(`/${key}/`) || pathname.endsWith(`/${key}`)
   );
 
   let video = document.getElementById('section-bg-video');
@@ -22,7 +24,7 @@ function applyBackground(pathname) {
     return;
   }
 
-  const src = `/img/backgrounds/${SECTIONS[found]}.mp4`;
+  const src = `${siteConfig.baseUrl}img/backgrounds/${SECTIONS[found]}.mp4`;
 
   if (!video) {
     video = document.createElement('video');
@@ -35,8 +37,8 @@ function applyBackground(pathname) {
   }
 
   if (!video.src.endsWith(src)) {
-  video.src = src;
-  video.play().catch(() => {}); // le .catch évite une erreur si le navigateur bloque quand même
+    video.src = src;
+    video.play().catch((err) => console.error('[bg] play error:', err));
   }
 }
 
