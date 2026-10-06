@@ -1,25 +1,41 @@
 const SECTIONS = {
-  ug1: 'bg-ug1',
-  ug2: 'bg-ug2',
-  mw05: 'bg-mw05',
-  c: 'bg-c',
-  ps: 'bg-ps',
-  uc: 'bg-uc',
-  tr: 'bg-tr',
+  ug1: 'ug1',
+  ug2: 'ug2',
+  mw05: 'mw05',
+  c: 'c',
+  ps: 'ps',
+  uc: 'uc',
+  tr: 'tr',
 };
 
 function applyBackground(pathname) {
   if (typeof document === 'undefined') return;
 
-  // Retire toutes les classes de section avant de réappliquer
-  Object.values(SECTIONS).forEach((cls) => document.body.classList.remove(cls));
-
   const found = Object.keys(SECTIONS).find(
     (key) => pathname.includes(`/${key}/`) || pathname.endsWith(`/${key}/`)
   );
 
-  if (found) {
-    document.body.classList.add(SECTIONS[found]);
+  let video = document.getElementById('section-bg-video');
+
+  if (!found) {
+    if (video) video.remove();
+    return;
+  }
+
+  const src = `/img/backgrounds/${found}.mp4`;
+
+  if (!video) {
+    video = document.createElement('video');
+    video.id = 'section-bg-video';
+    video.autoplay = true;
+    video.muted = true;
+    video.loop = true;
+    video.setAttribute('playsinline', '');
+    document.body.prepend(video);
+  }
+
+  if (!video.src.endsWith(src)) {
+    video.src = src;
   }
 }
 

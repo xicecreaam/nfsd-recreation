@@ -219,15 +219,12 @@
   border-bottom-width: 2px; /* garde le style actif propre */
 }
 
-body.bg-tr   {
-    position: relative;
-}
-
-body.bg-tr::before {
-  content: '';
+#section-bg-video {
   position: fixed;
   inset: 0;
-  background: url('/img/backgrounds/the-run.gif') center center / cover no-repeat;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   z-index: -1;
   pointer-events: none;
 }
