@@ -18,6 +18,8 @@ const config = {
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
+  clientModules: [require.resolve('./src/clientModules/sectionBackground.js')],
+
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
