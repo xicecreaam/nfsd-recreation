@@ -1,11 +1,11 @@
 const SECTIONS = {
-  ug1: 'ug1',
-  ug2: 'ug2',
-  mw05: 'mw05',
-  c: 'c',
-  ps: 'ps',
-  uc: 'uc',
-  tr: 'tr',
+  ug1: 'underground1',
+  ug2: 'underground2',
+  mw05: 'most-wanted',
+  c: 'carbon',
+  ps: 'prostreet',
+  uc: 'undercover',
+  tr: 'the-run',
 };
 
 function applyBackground(pathname) {
