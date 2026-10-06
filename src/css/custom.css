@@ -218,3 +218,5 @@
 .tabs__item--active {
   border-bottom-width: 2px; /* garde le style actif propre */
 }
+
+body.bg-tr   { background: url('/img/backgrounds/the-run.gif')   center center / cover no-repeat fixed; }
