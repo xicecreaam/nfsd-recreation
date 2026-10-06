@@ -12,7 +12,7 @@ function applyBackground(pathname) {
   if (typeof document === 'undefined') return;
 
   const found = Object.keys(SECTIONS).find(
-    (key) => pathname.includes(`/${key}/`) || pathname.endsWith(`/${key}/`)
+    (key) => pathname.includes(`/${key}/`) || pathname.endsWith(`/${key}`)
   );
 
   let video = document.getElementById('section-bg-video');
