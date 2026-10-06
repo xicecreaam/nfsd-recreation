@@ -9,37 +9,37 @@ const sidebars = {
   mw05Sidebar: [{ type: 'category', label: 'Most Wanted (2005)', link: { type: 'doc', id: 'mw05/index' }, collapsed: true, collapsible: true,
     items: [{ type: 'category', label: 'Most Wanted Any% Glitches', link: { type: 'doc', id: 'mw05/any/index' }, collapsed: true, collapsible: true,
     items: [
-      { type: 'doc', id: 'mw05/any/setup' },
-      { type: 'doc', id: 'mw05/any/general' },
-      { type: 'doc', id: 'mw05/any/simple-any' },
-      { type: 'doc', id: 'mw05/any/inter-any' },
-      { type: 'doc', id: 'mw05/any/info' },
-      { type: 'doc', id: 'mw05/any/expert-any' } ] },
+      { type: 'doc', id: 'mw05/any/setup/' },
+      { type: 'doc', id: 'mw05/any/general/' },
+      { type: 'doc', id: 'mw05/any/simple-any/' },
+      { type: 'doc', id: 'mw05/any/inter-any/' },
+      { type: 'doc', id: 'mw05/any/info/' },
+      { type: 'doc', id: 'mw05/any/expert-any/' } ] },
 
            { type: 'category', label: 'Most Wanted Any% No Major Glitches', link: { type: 'doc', id: 'mw05/nmg/index' }, collapsed: true, collapsible: true,
     items: [
-      { type: 'doc', id: 'mw05/nmg/setup' },
-      { type: 'doc', id: 'mw05/nmg/general' },
-      { type: 'doc', id: 'mw05/nmg/any' } ] } ] },
+      { type: 'doc', id: 'mw05/nmg/setup/' },
+      { type: 'doc', id: 'mw05/nmg/general/' },
+      { type: 'doc', id: 'mw05/nmg/any/' } ] } ] },
 
                 { type: 'category', label: 'Category Extensions', link: { type: 'doc', id: 'mw05/ce/index' }, collapsed: true, collapsible: true,
     items: [{ type: 'category', label: 'All Bosses Any%', link: { type: 'doc', id: 'mw05/ce/all-bosses/index' }, collapsed: true, collapsible: true,
     items: [
-      { type: 'doc', id: 'mw05/ce/all-bosses/setup' },
-      { type: 'doc', id: 'mw05/ce/all-bosses/general' },
-      { type: 'doc', id: 'mw05/ce/all-bosses/any' } ] },
+      { type: 'doc', id: 'mw05/ce/all-bosses/setup/' },
+      { type: 'doc', id: 'mw05/ce/all-bosses/general/' },
+      { type: 'doc', id: 'mw05/ce/all-bosses/any/' } ] },
 
            { type: 'category', label: 'Least Wanted Any%', link: { type: 'doc', id: 'mw05/ce/lw/index' }, collapsed: true, collapsible: true,
     items: [
-      { type: 'doc', id: 'mw05/ce/lw/setup' },
-      { type: 'doc', id: 'mw05/ce/lw/general' },
-      { type: 'doc', id: 'mw05/ce/lw/any' } ] },
+      { type: 'doc', id: 'mw05/ce/lw/setup/' },
+      { type: 'doc', id: 'mw05/ce/lw/general/' },
+      { type: 'doc', id: 'mw05/ce/lw/any/' } ] },
             
            { type: 'category', label: 'No Lap Glitch Any%', link: { type: 'doc', id: 'mw05/ce/nlg/index' }, collapsed: true, collapsible: true,
     items: [
-      { type: 'doc', id: 'mw05/ce/nlg/setup' },
-      { type: 'doc', id: 'mw05/ce/nlg/general' },
-      { type: 'doc', id: 'mw05/ce/nlg/any' } ] } ] },
+      { type: 'doc', id: 'mw05/ce/nlg/setup/' },
+      { type: 'doc', id: 'mw05/ce/nlg/general/' },
+      { type: 'doc', id: 'mw05/ce/nlg/any/' } ] } ] },
 
 { type: 'link', label: 'Speedrun.com page', href: 'https://www.speedrun.com/nfsmw05' },
 { type: 'link', label: 'Category Extensions page', href: 'https://www.speedrun.com/nfsmw05_ce' },
@@ -48,19 +48,19 @@ const sidebars = {
 
   cSidebar: [{ type: 'category', label: 'Carbon', link: { type: 'doc', id: 'c/index' }, collapsed: true, collapsible: true,
     items: [
-      { type: 'doc', id: 'c/setup', label: 'Setting up for speedruns' },
-      { type: 'doc', id: 'c/general', label: 'General information' },
-      { type: 'doc', id: 'c/any', label: 'Career Any% route' }, ], },
+      { type: 'doc', id: 'c/setup/', label: 'Setting up for speedruns' },
+      { type: 'doc', id: 'c/general/', label: 'General information' },
+      { type: 'doc', id: 'c/any/', label: 'Career Any% route' }, ], },
         
   {type: 'link', label: 'Speedrun.com page', href: 'https://www.speedrun.com/nfsc',},
   {type: 'link', label: 'Category Extensions page', href: 'https://www.speedrun.com/nfscce',}],
 
   psSidebar: [{ type: 'category', label: 'ProStreet', link: { type: 'doc', id: 'ps/index' }, collapsed: true, collapsible: true,
     items: [
-      { type: 'doc', id: 'ps/setup', label: 'Setting up for speedruns' },
-      { type: 'doc', id: 'ps/general', label: 'General information' },
-      { type: 'doc', id: 'ps/any_unr', label: 'Career Any% route (Unrestricted)' },
-      { type: 'doc', id: 'ps/any_ka', label: 'Career Any% route (King Assist)' },], },
+      { type: 'doc', id: 'ps/setup/', label: 'Setting up for speedruns' },
+      { type: 'doc', id: 'ps/general/', label: 'General information' },
+      { type: 'doc', id: 'ps/any_unr/', label: 'Career Any% route (Unrestricted)' },
+      { type: 'doc', id: 'ps/any_ka/', label: 'Career Any% route (King Assist)' },], },
         
   {type: 'link', label: 'Speedrun.com page', href: 'https://www.speedrun.com/nfsps',}],
 
@@ -68,9 +68,9 @@ const sidebars = {
 
   trSidebar: [{ type: 'category', label: 'The Run', link: { type: 'doc', id: 'tr/index' }, collapsed: true, collapsible: true,
     items: [
-      { type: 'doc', id: 'tr/setup', label: 'Setting up for speedruns' },
-      { type: 'doc', id: 'tr/general', label: 'General information' },
-      { type: 'doc', id: 'tr/any', label: 'Career Any% route' }, ], },
+      { type: 'doc', id: 'tr/setup/', label: 'Setting up for speedruns' },
+      { type: 'doc', id: 'tr/general/', label: 'General information' },
+      { type: 'doc', id: 'tr/any/', label: 'Career Any% route' }, ], },
         
   {type: 'link', label: 'Speedrun.com page', href: 'https://www.speedrun.com/nfstr',}],
 
