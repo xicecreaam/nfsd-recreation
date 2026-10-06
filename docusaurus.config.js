@@ -61,13 +61,13 @@ const config = {
           src: 'img/nfsdr-logo-v2.png',},
           
         items: [
-          {to: 'ug1', label: 'Underground 1', position: 'left' },
-          {to: 'ug2', label: 'Underground 2', position: 'left'},
-          {to: 'mw05', label: 'Most Wanted (2005)', position: 'left'},
-          {to: 'c', label: 'Carbon', position: 'left'},
-          {to: 'ps', label: 'ProStreet', position: 'left'},
-          {to: 'uc', label: 'Undercover', position: 'left'},
-          {to: 'tr', label: 'The Run', position: 'left'},
+          {to: 'ug1/', label: 'Underground 1', position: 'left' },
+          {to: 'ug2/', label: 'Underground 2', position: 'left'},
+          {to: 'mw05/', label: 'Most Wanted (2005)', position: 'left'},
+          {to: 'c/', label: 'Carbon', position: 'left'},
+          {to: 'ps/', label: 'ProStreet', position: 'left'},
+          {to: 'uc/', label: 'Undercover', position: 'left'},
+          {to: 'tr/', label: 'The Run', position: 'left'},
           {
             href: 'https://mega.nz/folder/c4o2Tbbb#jXMHI3VqPF4GVYfJo6MxCw',
             label: 'NFS games collection',
@@ -81,13 +81,13 @@ const config = {
           {
             title: 'Black Box Games',
             items: [
-              { label: 'Underground 1', to: 'ug1'},
-              { label: 'ProStreet', to: 'ps'},
-              { label: 'Underground 2', to: 'ug2'},
-              { label: 'Undercover', to: 'uc'},
-              { label: 'Most Wanted (2005)', to: 'mw05'},
+              { label: 'Underground 1', to: 'ug1/'},
+              { label: 'ProStreet', to: 'ps/'},
+              { label: 'Underground 2', to: 'ug2/'},
+              { label: 'Undercover', to: 'uc/'},
+              { label: 'Most Wanted (2005)', to: 'mw05/'},
               { label: 'The Run', to: 'tr'},
-              { label: 'Carbon', to: 'c'},
+              { label: 'Carbon', to: 'c/'},
             ],
           },
           {
