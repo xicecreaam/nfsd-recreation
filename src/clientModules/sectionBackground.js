@@ -15,7 +15,7 @@ function applyBackground(pathname) {
   Object.values(SECTIONS).forEach((cls) => document.body.classList.remove(cls));
 
   const found = Object.keys(SECTIONS).find(
-    (key) => pathname.includes(`/${key}/`) || pathname.endsWith(`/${key}`)
+    (key) => pathname.includes(`/${key}/`) || pathname.endsWith(`/${key}/`)
   );
 
   if (found) {
