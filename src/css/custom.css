@@ -208,18 +208,11 @@
 }
 
 .theme-layout-footer-column.col.footer__col:last-of-type .footer__title {
-  display: inline;
   margin-bottom: 0;
-  margin-right: 0.3em;
 }
 
 .theme-layout-footer-column.col.footer__col:last-of-type .footer__items {
-  display: inline;
-}
-
-.theme-layout-footer-column.col.footer__col:last-of-type .footer__item {
-  display: inline;
-  margin: 0;
+  font-size: 1.25rem;
 }
 
 .video-container {
