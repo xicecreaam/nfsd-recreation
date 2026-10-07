@@ -211,9 +211,10 @@
   margin-bottom: 0;
 }
 
-.theme-layout-footer-column.col.footer__col:last-of-type .footer__item {
+.theme-layout-footer-column.col.footer__col:last-of-type .footer__items.clean-list {
   font: bold;
   font-size: 1.25rem;
+  margin-bottom: 0 !important;
 }
 
 .video-container {
