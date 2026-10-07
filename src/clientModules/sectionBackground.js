@@ -10,21 +10,35 @@ const SECTIONS = {
   tr: 'the-run',
 };
 
+const HOME_VIDEO = 'lobby'; // renomme selon le nom de fichier que tu choisis
+
+function isHome(pathname) {
+  const base = siteConfig.baseUrl; // '/nfsd-recreation/'
+  return pathname === base || pathname === base.slice(0, -1);
+}
+
 function applyBackground(pathname) {
   if (typeof document === 'undefined') return;
 
-  const found = Object.keys(SECTIONS).find(
-    (key) => pathname.includes(`/${key}/`) || pathname.endsWith(`/${key}`)
-  );
+  let filename = null;
+
+  if (isHome(pathname)) {
+    filename = HOME_VIDEO;
+  } else {
+    const found = Object.keys(SECTIONS).find(
+      (key) => pathname.includes(`/${key}/`) || pathname.endsWith(`/${key}`)
+    );
+    if (found) filename = SECTIONS[found];
+  }
 
   let video = document.getElementById('section-bg-video');
 
-  if (!found) {
+  if (!filename) {
     if (video) video.remove();
     return;
   }
 
-  const src = `${siteConfig.baseUrl}img/backgrounds/${SECTIONS[found]}.mp4`;
+  const src = `${siteConfig.baseUrl}img/backgrounds/${filename}.mp4`;
 
   if (!video) {
     video = document.createElement('video');
