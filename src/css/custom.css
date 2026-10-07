@@ -211,7 +211,8 @@
   margin-bottom: 0;
 }
 
-.theme-layout-footer-column.col.footer__col:last-of-type .footer__items {
+.theme-layout-footer-column.col.footer__col:last-of-type .footer__item {
+  font: bold;
   font-size: 1.25rem;
 }
 
