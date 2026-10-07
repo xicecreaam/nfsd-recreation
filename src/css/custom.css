@@ -164,6 +164,10 @@
   justify-content: flex-end !important; /* <<< met la carte Next à droite */
 }
 
+:root {
+  --ifm-card-background-color: rgba(33, 33, 34, 0.6);
+}
+
 .alert--info {
   background-color: rgba(32, 24, 24, 0.6);
 }
