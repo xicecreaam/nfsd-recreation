@@ -212,8 +212,11 @@
 }
 
 .theme-layout-footer-column.col.footer__col:last-of-type .footer__items.clean-list {
-  font: bold;
+  font: bold var(--ifm-h4-font-size) / var(--ifm-heading-line-height) var(--ifm-font-family-base);
   font-size: 1.25rem;
+}
+
+.theme-layout-footer-column.col.footer__col:last-of-type .footer__item {
   margin-bottom: 0 !important;
 }
 
