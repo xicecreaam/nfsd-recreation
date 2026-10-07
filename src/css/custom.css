@@ -185,6 +185,23 @@
   padding: 16px 16px;
 }
 
+.footer__title {
+  font-size: 1.25rem;
+  margin-bottom: 0.625rem;
+}
+
+.footer__item {
+  margin-bottom: 0.25rem;
+}
+
+.footer__link-item {
+  line-height: 1;
+}
+
+.footer__links {
+  margin-bottom: 0 !important;
+}
+
 .theme-layout-footer-column.col.footer__col:first-of-type .footer__items.clean-list {
   display: grid !important;
   grid-template-columns: 12.5rem 7.5rem !important;
