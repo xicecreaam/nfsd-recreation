@@ -14,9 +14,9 @@ All the information needed to set up the PC version of ProStreet for speedruns.
 
 ## Game version
 
-Two versions exist to run the game : **1.0** and **1.1**, but the fastest route is running in **1.1**.
+Two versions exist to run the game : **1.0** and **1.1**, but the fastest route is using **1.1**.
 
-**You can choose any language to run the game.** You don't get any advantage by choosing one specific language. Languages without a dub will have voicelines in english but the text will be translated.
+**You can choose any language to run the game.** You don't get any advantage by choosing one specific language. Languages without a dub will have voicelines in english but the text will be translated still.
 
 ### Console ?
 
@@ -26,15 +26,34 @@ You can run ProStreet on console : PS2, PS3, Xbox 360, Wii... However, you will 
 
 ### 1.1 (aka Booster Pack DLC)
 
+To know if you are using the correct version, you can look at the top right corner in the **splash screen** (the `CLICK to continue` screen). It would show either 1.0 or 1.1 (it can be difficult to see since it's a grey text on top of grey textures).
 
+<details className="alert alert--info details">
+  <summary>Game version info</summary>
+  <img src="/nfsd-recreation/img/PS-splashscreen-game-version.png" alt="ProStreet splashscreen" />
+</details>
+
+Game copies you can find on internet are mostly already pre-patched to 1.1 but they can be *repacked* (which can have some unwanted mods). Just in case, if you don't have it already, you may want to [download this game copy](https://mega.nz/file/AxxA3arI#9UMv9GyChnji3ohE03pPxjcWX9kZvoe4MzfQlNH488E) or just using the [NFS games collection](https://mega.nz/folder/c4o2Tbbb#jXMHI3VqPF4GVYfJo6MxCw) link in the top right corner of this page.
 
 ### Widescreen fix
 
+**The only modification currently allowed is [an older version of widescreen fix](https://www.speedrun.com/nfsmw05/resources/wpwzz).** Why an older version ? Newer versions contain an setting called `SimRate` that modifies the physics of the game in general. To install widescreen fix, extract the contents of the archive into your game folder.
 
+After you've installed the widescreen fix, enter the scripts folder and open `NFSProStreet.GenericFix.ini` with a text editor to configure it. **SkipIntro isn't allowed for speedruns** based on the rules of the game. You might want to disable the in-game motion blur by enabling the `DisableMotionBlur` setting.
 
 ### Controller support
 
+#### Xbox (XInput)
 
+The game has full support for XInput (Xbox) controllers including button overlays with `ImproveGamepadSupport = 1` in `NFSProStreet.GenericFix.ini`.
+
+#### PlayStation
+
+To display Playstation buttons ingame, set `ImproveGamepadSupport = 2` in `NFSProStreet.GenericFix.ini`. I didn't try the Steam method like explained [there](https://xicecreaam.github.io/nfsd-recreation/mw05/any/setup/#playstation) since I don't have a PS controller.
+
+#### Deadzone
+
+You can configure the deadzone in `NFSProStreet.GenericFix.ini` by changing `LeftStickDeadzone`. You can use [Gamepad Tester](https://hardwaretester.com/gamepad) to determine the minimum safe value. Best setting depends on your preference. If you want a sensitive stick, set it as low as you can without the car turning on its own, otherwise use slightly higher values. The default value of 10 works well enough for most.
 
 ## Framerate requirements
 
@@ -56,4 +75,4 @@ You can follow [this tutorial](https://www.youtube.com/watch?v=aV5xdbrt5Qs) for 
 
 ### Premade Subsplits
 
-[**Download subsplits and the autosplitter here**](https://mega.nz/folder/R8w0BSJa#M7sIwBnXOPQWuSiw9oexEQ), made for the route covered in this guide. Make sure you compare against Game Time.
+[**Download subsplits and the autosplitter here**](https://mega.nz/folder/RwgDECIK#PYKA5oobzuYBWXNDrZEjgQ), made for the route covered in this guide (Any% only for now). Make sure you compare against Game Time.
