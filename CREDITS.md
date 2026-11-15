@@ -5,7 +5,8 @@ The following individuals have contributed to the project in a notable way.
 * Looking for people
 
 # Underground 2 Guide
-* Looking for people
+* Jigsaw
+* SlivenKage
 
 # Most Wanted Guide
 * IceCream
